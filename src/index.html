@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="../dist/output.css"> -->
+    <link href="../css/style.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    </head>
+    <body class="font-sans text-gray-700 ">
+    <nav id="navbar" class="navbar shadow-lg  py-4 navbar-expand-lg navbar-light bg-light mx-auto  max-w-screen-xl px-4 sm:px-16">
+        <div>
+            <h1 class="logo font-bold text-green-700 tracking-wide text-3xl me-auto">
+                <a class="hover:no-underline hover:text-green-500" href="index.html">Voila</a>
+            </h1>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="list-unstyled navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link px-3 active hover:no-underline  text-xl font-semibold text-gray-700 hover:text-green-500 duration-300" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link px-3 hover:no-underline text-xl font-semibold text-gray-700 hover:text-green-500 duration-300" href="#">About</a></li>
+                <li class="nav-item"><a class="nav-link px-3 hover:no-underline text-xl font-semibold text-gray-700 hover:text-green-500 duration-300" href="#">Courses</a></li>
+                <li class="nav-item"><a class="nav-link px-3 hover:no-underline text-xl font-semibold text-gray-700 hover:text-green-500 duration-300" href="#">Trainers</a></li>
+                <li class="nav-item"><a class="nav-link px-3 hover:no-underline text-xl font-semibold text-gray-700 hover:text-green-500 duration-300" href="#">Events</a></li>
+                <li class="nav-item"><a class="nav-link px-3 hover:no-underline text-xl font-semibold text-gray-700 hover:text-green-500 duration-300" href="#">Pricing</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link px-3 hover:no-underline text-xl font-semibold text-gray-700 hover:text-green-500 duration-300" href="#">
+                        Drop Down <i class="bi bi-chevron-down"></i>
+                    </a>
+                    <ul class="list-unstyled dropdown-menu">
+                        <li><a class="nav-link px-3 hover:no-underline text-xl font-semibold text-gray-700 hover:text-green-500 duration-300" href="#">Drop Down 1</a></li>
+                        <li class="dropdown">
+                            <a class="nav-link px-3 hover:no-underline text-xl font-semibold text-gray-700 hover:text-green-500 duration-300" href="#">
+                                Deep Drop Down <i class="bi bi-chevron-right"></i>
+                            </a>
+                            <ul class="list-unstyled dropdown-menu">
+                                <li><a class="nav-link px-3 hover:no-underline text-xl font-semibold text-gray-700 hover:text-green-500 duration-300" href="#">Deep Drop Down 1</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="nav-link px-3 hover:no-underline text-xl font-semibold text-gray-700 hover:text-green-500 duration-300" href="#">Drop Down 2</a></li>
+                        <li><a class="nav-link px-3 hover:no-underline text-xl font-semibold text-gray-700 hover:text-green-500 duration-300" href="#">Drop Down 3</a></li>
+                        <li><a class="nav-link px-3 hover:no-underline text-xl font-semibold text-gray-700 hover:text-green-500 duration-300" href="#">Drop Down 4</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link px-3 hover:no-underline text-xl font-semibold text-gray-700 hover:text-green-500 duration-300" href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+        <section id="hero" class="overflow-hidden p-20 d-flex justify-content-center w-full bg-cover h-full relative align-items-center" style="  background: url(../assets/img/hero-bg.jpg) top center;">
+            <div class="container position-relative pt-10 max-w-screen-xl px-4  sm:px-16 mx-auto"  >
+                <h1 class="text-5xl font-bold text-white">Learning Today,<br>Leading Tomorrow</h1>
+                <h2 class="text-3xl mt-3 text-white">We are team of talented designers making websites with Bootstrap</h2>
+                <div class="ml-10 bg-transparent mt-3  text-white rounded-3xl px-4 py-2   hover:bg-green-400 duration-300"></div>
+                <a href="#" class=" ml-10 bg-none border-2 border-white hover:border-green-500 hover:no-underline text-white rounded-3xl px-4 py-2 text-lg font-semibold  hover:bg-green-500 duration-300">Get Started</a>
+            </div>
+        </section>
+        <main>
+
+            <section id="about" class="about overflow-hidden max-w-screen-xl px-4 py-3 sm:px-16 mx-auto">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 order-1 order-lg-2">
+                            <img src="../assets/img/about.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-lg-6 pt-4 md:pt-0 order-2 order-lg-1 content">
+                            <h3 class="font-semibold text-2xl md:text-3xl lg:text-4xl mb-4">Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+                            <p class="italic">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                                magna aliqua.
+                            </p>
+                            <ul class="list-none mt-4">
+                                <li><i class="bi bi-check-circle text-green-500"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                                <li><i class="bi bi-check-circle text-green-500"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                                <li><i class="bi bi-check-circle text-green-500"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                            </ul>
+                            <p class="mt-4">
+                                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section  class=" bg-gray-200 overflow-hidden max-w-screen-xl px-4 py-3 sm:px-16 mx-auto">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-6 text-center">
+                            <span class="d-block display-4 text-success"></span>
+                            <p class="font-weight-bold mt-4">Students</p>
+                        </div>
+                        <div class="col-lg-3 col-6 text-center">
+                            <span class="d-block display-4 text-success"></span>
+                            <p class="font-weight-bold mt-4">Courses</p>
+                        </div>
+                        <div class="col-lg-3 col-6 text-center">
+                            <span class="d-block display-4 text-success"></span>
+                            <p class="font-weight-bold mt-4">Events</p>
+                        </div>
+                        <div class="col-lg-3 col-6 text-center">
+                            <span class="d-block display-4 text-success"></span>
+                            <p class="font-weight-bold mt-4">Trainers</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section  class=" overflow-hidden py-20 max-w-screen-xl px-4  sm:px-16 mx-auto">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 d-flex align-items-stretch">
+                            <div class=" bg-green-400 text-white p-4 rounded">
+                                <h3 class="font-bold text-3xl mb-4">Why Choose Voila?</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.
+                                </p>
+                                <div class="text-center">
+                                    <a href="#" class="hover:no-underline inline-block px-6 py-2 bg-white text-green-500 rounded-full transition duration-300 ease-in-out hover:bg-green-500 hover:text-white">
+                                        Learn More <i class="bx bx-chevron-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 d-flex align-items-stretch">
+                            <div class=" flex flex-col align-items-center justify-center">
+                                <div class="row">
+                                    <div class="col-xl-4 flex align-self-center align-content-center justify-center">
+                                        <div class=" mt-4 mt-xl-0 bg-white p-4 rounded border">
+                                            <center>
+                                                <i class="bx bx-receipt text-green-500 text-2xl p-3 rounded-full bg-green-100"></i>
+                                                <h4 class="text-xl font-bold my-3">Corporis voluptates sit</h4>
+                                                <p class="text-gray-600">Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                                            </center>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 flex items-center">
+                                        <div class=" mt-4 mt-xl-0 bg-white p-4 rounded border">
+                                            <center>
+                                                <i class="bx bx-cube-alt text-green-500 text-2xl p-3 rounded-full bg-green-100"></i>
+                                                <h4 class="text-xl font-bold my-3">Ullamco laboris ladore pan</h4>
+                                                <p class="text-gray-600">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                                            </center>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 flex items-center">
+                                        <div class=" mt-4 mt-xl-0 bg-white p-4 rounded border">
+                                            <center>
+                                                <i class="bx bx-images text-green-500 text-2xl p-3 rounded-full bg-green-100"></i>
+                                                <h4 class="text-xl font-bold my-3">Labore consequatur</h4>
+                                                <p class="text-gray-600">Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                                            </center>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section  class=" overflow-hidden py-20 max-w-screen-xl px-4  sm:px-16 mx-auto">
+                <div class="container" >
+                    <div class="row"  >
+                        <div class="col-lg-3 col-md-4">
+                            <div class=" border flex gap-2 border-gray-300 p-3 transition duration-300 hover:border-2 cursor-pointer hover:border-green-500">
+                            <i  style="color: #ffbb2c;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M21 11.646V21a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-9.354A3.985 3.985 0 0 1 2 9V3a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v6a3.99 3.99 0 0 1-1 2.646Zm-2 1.228a4.01 4.01 0 0 1-4-1.228A3.99 3.99 0 0 1 12 13a3.99 3.99 0 0 1-3-1.354a3.99 3.99 0 0 1-4 1.228V20h14v-7.126ZM14 9a1 1 0 1 1 2 0a2 2 0 1 0 4 0V4H4v5a2 2 0 1 0 4 0a1 1 0 0 1 2 0a2 2 0 1 0 4 0Z"/></svg></i>
+                            <h3><a class="hover:no-underline text-lg text-gray-700 text-base hover:text-green-500 duration-300 font-semibold" href="">Lorem Ipsum</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+                        <div class=" border flex gap-2 border-gray-300 p-3 transition duration-300 hover:border-2 cursor-pointer hover:border-green-500">
+                            <i style="color: #5578ff;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Zm1 2v14h16V5H4Zm3 8h2v4H7v-4Zm4-6h2v10h-2V7Zm4 3h2v7h-2v-7Z"/></svg></i>
+                            <h3><a class="hover:no-underline text-lg text-gray-700 text-base hover:text-green-500 duration-300 font-semibold" href="">Dolor Sitema</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+                        <div class=" border flex gap-2 border-gray-300 p-3 transition duration-300 hover:border-2 cursor-pointer hover:border-green-500">
+                            <i style="color: #e80368;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M9 1v2h6V1h2v2h4a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h4V1h2Zm11 10H4v8h16v-8ZM8 14v2H6v-2h2Zm10 0v2h-8v-2h8ZM7 5H4v4h16V5h-3v2h-2V5H9v2H7V5Z"/></svg></i>
+                            <h3><a class="hover:no-underline text-lg text-gray-700 text-base hover:text-green-500 duration-300 font-semibold" href="">Sed perspiciatis</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+                        <div class=" border flex gap-2 border-gray-300 p-3 transition duration-300 hover:border-2 cursor-pointer hover:border-green-500">
+                            <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
+                            <h3><a class="hover:no-underline text-lg text-gray-700 text-base hover:text-green-500 duration-300 font-semibold" href="">Magni Dolores</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mt-4">
+                        <div class=" border flex gap-2 border-gray-300 p-3 transition duration-300 hover:border-2 cursor-pointer hover:border-green-500">
+                            <i style="color: #47aeff;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M5 12.5c0 .313.461.858 1.53 1.393C7.914 14.585 9.877 15 12 15c2.123 0 4.086-.415 5.47-1.107c1.069-.535 1.53-1.08 1.53-1.393v-2.171C17.35 11.349 14.827 12 12 12s-5.35-.652-7-1.671V12.5Zm14 2.829C17.35 16.349 14.827 17 12 17s-5.35-.652-7-1.671V17.5c0 .313.461.858 1.53 1.393C7.914 19.585 9.877 20 12 20c2.123 0 4.086-.415 5.47-1.107c1.069-.535 1.53-1.08 1.53-1.393v-2.171ZM3 17.5v-10C3 5.015 7.03 3 12 3s9 2.015 9 4.5v10c0 2.485-4.03 4.5-9 4.5s-9-2.015-9-4.5Zm9-7.5c2.123 0 4.086-.415 5.47-1.107C18.538 8.358 19 7.813 19 7.5c0-.313-.461-.858-1.53-1.393C16.085 5.415 14.123 5 12 5c-2.123 0-4.086.415-5.47 1.107C5.461 6.642 5 7.187 5 7.5c0 .313.461.858 1.53 1.393C7.914 9.585 9.877 10 12 10Z"/></svg></i>
+                            <h3><a class="hover:no-underline text-lg text-gray-700 text-base hover:text-green-500 duration-300 font-semibold" href="">Nemo Enim</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mt-4">
+                        <div class=" border flex gap-2 border-gray-300 p-3 transition duration-300 hover:border-2 cursor-pointer hover:border-green-500">
+                            <i  style="color: #ffa76e;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M2.049 13H4.06a8.001 8.001 0 0 0 15.877 0h2.012c-.502 5.053-4.765 9-9.95 9c-5.186 0-9.45-3.947-9.951-9Zm0-2c.502-5.053 4.765-9 9.95-9c5.186 0 9.45 3.947 9.951 9h-2.012A8.001 8.001 0 0 0 4.06 11H2.05Zm9.95 3a2 2 0 1 1 0-4a2 2 0 0 1 0 4Z"/></svg></i>
+                            <h3><a class="hover:no-underline text-lg text-gray-700 text-base hover:text-green-500 duration-300 font-semibold" href="">Eiusmod Tempor</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mt-4">
+                        <div class=" border flex gap-2 border-gray-300 p-3 transition duration-300 hover:border-2 cursor-pointer hover:border-green-500">
+                            <i  style="color: #11dbcf;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M19 22H5a3 3 0 0 1-3-3V3a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v12h4v4a3 3 0 0 1-3 3Zm-1-5v2a1 1 0 1 0 2 0v-2h-2Zm-2 3V4H4v15a1 1 0 0 0 1 1h11ZM6 7h8v2H6V7Zm0 4h8v2H6v-2Zm0 4h5v2H6v-2Z"/></svg></i>
+                            <h3><a class="hover:no-underline text-lg text-gray-700 text-base hover:text-green-500 duration-300 font-semibold" href="">Midela Teren</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mt-4">
+                        <div class=" border flex gap-2 border-gray-300 p-3 transition duration-300 hover:border-2 cursor-pointer hover:border-green-500">
+                            <i  style="color: #4233ff;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13.242V20h1v2H2v-2h1v-6.758A4.496 4.496 0 0 1 1 9.5c0-.827.224-1.624.633-2.303L4.345 2.5a1 1 0 0 1 .866-.5H18.79a1 1 0 0 1 .866.5l2.703 4.682c.418.694.642 1.49.642 2.318c0 1.56-.794 2.935-2 3.742Zm-2 .73a4.496 4.496 0 0 1-3.75-1.36A4.496 4.496 0 0 1 12 14.001a4.496 4.496 0 0 1-3.25-1.387A4.496 4.496 0 0 1 5 13.973V20h14v-6.027ZM5.789 4L3.356 8.213a2.5 2.5 0 1 0 4.466 2.216c.335-.837 1.52-.837 1.856 0a2.5 2.5 0 0 0 4.644 0c.335-.837 1.52-.837 1.856 0a2.5 2.5 0 1 0 4.457-2.232L18.21 4H5.79Z"/></svg></i>
+                            <h3><a class="hover:no-underline text-lg text-gray-700 text-base hover:text-green-500 duration-300 font-semibold" href="">Pira Neve</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mt-4">
+                        <div class=" border flex gap-2 border-gray-300 p-3 transition duration-300 hover:border-2 cursor-pointer hover:border-green-500">
+                            <i  style="color: #b2904f;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M2.05 11H7v2H4.062A8.004 8.004 0 0 0 11 19.938V9.874A4.002 4.002 0 0 1 12 2a4 4 0 0 1 1 7.874v10.064A8.004 8.004 0 0 0 19.938 13H17v-2h4.95c.033.329.05.662.05 1c0 5.523-4.477 10-10 10S2 17.523 2 12c0-.338.017-.671.05-1ZM12 8a2 2 0 1 0 0-4a2 2 0 0 0 0 4Z"/></svg></i>
+                            <h3><a class="hover:no-underline text-lg text-gray-700 text-base hover:text-green-500 duration-300 font-semibold" href="">Dirada Pack</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mt-4">
+                        <div class=" border flex gap-2 border-gray-300 p-3 transition duration-300 hover:border-2 cursor-pointer hover:border-green-500">
+                            <i  style="color: #b20969;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M15 4.581V12a3 3 0 1 1-2-2.83V2.05c5.053.501 9 4.765 9 9.95c0 5.523-4.477 10-10 10S2 17.523 2 12c0-5.185 3.947-9.449 9-9.95v2.012A8.001 8.001 0 0 0 12 20a8 8 0 0 0 3-15.42Z"/></svg></i>
+                            <h3><a class="hover:no-underline text-lg text-gray-700 text-base hover:text-green-500 duration-300 font-semibold" href="">Moton Ideal</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mt-4">
+                        <div class=" border flex gap-2 border-gray-300 p-3 transition duration-300 hover:border-2 cursor-pointer hover:border-green-500">
+                            <i  style="color: #ff5828;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="m12 13l6 9H6l6-9Zm0 3.6L9.74 20h4.52L12 16.6Zm-1.06-6.04a1.5 1.5 0 1 1 2.121-2.12a1.5 1.5 0 0 1-2.122 2.12ZM5.281 2.782l1.415 1.414a7.5 7.5 0 0 0 0 10.607l-1.415 1.414a9.5 9.5 0 0 1 0-13.435Zm13.436 0a9.5 9.5 0 0 1 0 13.435l-1.415-1.414a7.5 7.5 0 0 0 0-10.607l1.415-1.414ZM8.11 5.611l1.414 1.414a3.5 3.5 0 0 0 0 4.95L8.11 13.389a5.5 5.5 0 0 1 0-7.778Zm7.778 0a5.5 5.5 0 0 1 0 7.778l-1.414-1.414a3.5 3.5 0 0 0 0-4.95l1.414-1.414Z"/></svg></i>
+                            <h3><a class="hover:no-underline text-lg text-gray-700 text-base hover:text-green-500 duration-300 font-semibold" href="">Verdo Park</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mt-4">
+                        <div class=" border flex gap-2 border-gray-300 p-3 transition duration-300 hover:border-2 cursor-pointer hover:border-green-500">
+                            <i class="ri-fingerprint-line" style="color: #29cc61;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M17 13v1c0 2.77-.664 5.445-1.915 7.846l-.227.42l-1.746-.974a14.89 14.89 0 0 0 1.881-6.836L15 14v-1h2Zm-6-3h2v4l-.005.379a12.94 12.94 0 0 1-2.691 7.549l-.231.29l-1.549-1.264a10.944 10.944 0 0 0 2.47-6.588L11 14v-4Zm1-4a5 5 0 0 1 5 5h-2a3 3 0 0 0-6 0v3c0 2.235-.82 4.344-2.27 5.977l-.212.23l-1.448-1.38a6.97 6.97 0 0 0 1.924-4.524L7 14v-3a5 5 0 0 1 5-5Zm0-4a9 9 0 0 1 9 9v3c0 1.698-.201 3.37-.596 4.99l-.14.539l-1.93-.526c.392-1.437.614-2.922.658-4.435L19 14v-3A7 7 0 0 0 7.808 5.394L6.383 3.968A8.962 8.962 0 0 1 12 2ZM4.968 5.383l1.426 1.425a6.966 6.966 0 0 0-1.39 3.951L5 11l.004 2c0 1.12-.264 2.203-.761 3.177l-.157.29l-1.736-.992c.379-.665.6-1.407.645-2.183L3.004 13v-2a8.94 8.94 0 0 1 1.964-5.617Z"/></svg></i>
+                            <h3><a class="hover:no-underline text-lg text-gray-700 text-base hover:text-green-500 duration-300 font-semibold" href="">Flavor Nivelanda</a></h3>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section  class=" overflow-hidden py-20 max-w-screen-xl px-4  sm:px-16 mx-auto">
+                <div class="container">
+                    <div class="section-title pb-5">
+                        <h2 class="text-sm font-semibold p-0 lh-1 tracking-normal uppercase text-gray-600">Courses</h2>
+                        <p class="text-4xl font-bold uppercase text-gray-600">Popular Courses</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 flex items-stretch">
+                            <div class=" border rounded  border-gray-300 h-fit">
+                                <img src="../assets/img/course-1.jpg" class=" w-full" alt="...">
+                                <div class=" p-3">
+                                    <div class="flex justify-between items-center mb-3">
+                                        <h4 class=" p-2 text-white bg-green-400">Web Development</h4>
+                                        <p class=" font-bold text-gray-800 text-xl">$169</p>
+                                    </div>
+                                    <h3><a class="hover:no-underline text-gray-600 text-2xl font-bold mb-3 hover:text-green-500" href="#">Website Design</a></h3>
+                                    <p class="text-gray-700 py-2 text-sm">Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.</p>
+                                    <div class=" flex justify-between pt-5 items-center">
+                                        <div class=" flex items-center">
+                                            <img src="../assets/img/trainers/trainer-1.jpg" width="60px" class="img-fluid rounded-full" alt="">
+                                            <span class="pl-2 font-semibold text-gray-500">Antonio</span>
+                                        </div>
+                                        <div class=" text-lg text-secondary">
+                                            <i class="bx bx-user"></i>&nbsp;50
+                                            &nbsp;&nbsp;
+                                            <i class="bx bx-heart"></i>&nbsp;65
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 flex items-stretch ">
+                            <div class=" border rounded  border-gray-300 h-fit">
+                                <img src="../assets/img/course-2.jpg" class=" w-full" alt="...">
+                                <div class=" p-3">
+                                    <div class="flex justify-between items-center mb-3">
+                                        <h4 class="p-2 text-white bg-green-400">Marketing</h4>
+                                        <p class=" font-bold text-gray-800 text-xl">$250</p>
+                                    </div>
+                                    <h3><a class="hover:no-underline text-gray-600 text-2xl font-bold mb-3 hover:text-green-500" href="#">Search Engine Optimization</a></h3>
+                                    <p class="text-gray-700 py-2 text-sm">Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.</p>
+                                    <div class=" flex justify-between pt-5 items-center">
+                                        <div class=" flex items-center">
+                                            <img src="../assets/img/trainers/trainer-2.jpg" width="60px" class="img-fluid rounded-full" alt="">
+                                            <span class="pl-2 font-semibold text-gray-500">Lana</span>
+                                        </div>
+                                        <div class=" text-lg text-secondary">
+                                            <i class="bx bx-user"></i>&nbsp;35
+                                            &nbsp;&nbsp;
+                                            <i class="bx bx-heart"></i>&nbsp;42
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 flex items-stretch ">
+                            <div class=" border rounded border-gray-300 h-fit">
+                                <img src="../assets/img/course-3.jpg" class="img-fluid" alt="...">
+                                <div class=" p-3">
+                                    <div class="flex justify-between items-center mb-3">
+                                        <h4 class="p-2 text-white bg-green-400">Content</h4>
+                                        <p class=" font-bold text-gray-800 text-xl">$180</p>
+                                    </div>
+
+                                    <h3><a class="hover:no-underline text-gray-600 text-2xl font-bold mb-3 hover:text-green-500" href="#">Copywriting</a></h3>
+                                    <p class="text-gray-700 py-2 text-sm">Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.</p>
+                                    <div class=" flex justify-between pt-5 items-center">
+                                        <div class=" flex items-center">
+                                            <img src="../assets/img/trainers/trainer-3.jpg" width="60px" class="img-fluid rounded-full" alt="">
+                                            <span class="pl-2 font-semibold text-gray-500">Brandon</span>
+                                        </div>
+                                        <div class=" text-lg text-secondary">
+                                            <i class="bx bx-user"></i>&nbsp;20
+                                            &nbsp;&nbsp;
+                                            <i class="bx bx-heart"></i>&nbsp;85
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class=" overflow-hidden py-20 max-w-screen-xl px-4 sm:px-16 mx-auto">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 flex items-stretch">
+                            <div class=" text-center bg-white border border-gray-300 mb-20">
+                                <img src="../assets/img/trainers/trainer-1.jpg" class="img-fluid" alt="">
+                                <div class=" p-4">
+                                    <h4 class="font-bold text-lg mb-2">Walter White</h4>
+                                    <span class="italic block text-sm mb-2">Web Development</span>
+                                    <p class="text-gray-600 italic mb-4">
+                                        Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat
+                                        qui aut aut aut
+                                    </p>
+                                    <div class="social mt-4 text-secondary text-xl">
+                                        <a class="hover:no-underline hover:text-green-500 duration-300" href=""><i class="bi bi-twitter"></i></a>
+                                        <a class="hover:no-underline hover:text-green-500 duration-300" href=""><i class="bi bi-facebook"></i></a>
+                                        <a class="hover:no-underline hover:text-green-500 duration-300" href=""><i class="bi bi-instagram"></i></a>
+                                        <a class="hover:no-underline hover:text-green-500 duration-300" href=""><i class="bi bi-linkedin"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 flex items-stretch">
+                            <div class=" text-center bg-white border border-gray-300 mb-20">
+                                <img src="../assets/img/trainers/trainer-2.jpg" class="img-fluid" alt="">
+                                <div class=" p-4">
+                                    <h4 class="font-bold text-lg mb-2">Sarah Jhinson</h4>
+                                    <span class="italic block text-sm mb-2">Marketing</span>
+                                    <p class="text-gray-600 italic mb-4">
+                                        Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum
+                                        temporibus
+                                    </p>
+                                    <div class="social mt-4 text-secondary text-xl">
+                                        <a class="hover:no-underline hover:text-green-500 duration-300" href=""><i class="bi bi-twitter"></i></a>
+                                        <a class="hover:no-underline hover:text-green-500 duration-300" href=""><i class="bi bi-facebook"></i></a>
+                                        <a class="hover:no-underline hover:text-green-500 duration-300" href=""><i class="bi bi-instagram"></i></a>
+                                        <a class="hover:no-underline hover:text-green-500 duration-300" href=""><i class="bi bi-linkedin"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 flex items-stretch">
+                            <div class=" text-center bg-white border border-gray-300 mb-20">
+                                <img src="../assets/img/trainers/trainer-3.jpg" class="img-fluid" alt="">
+                                <div class=" p-4">
+                                    <h4 class="font-bold text-lg mb-2">William Anderson</h4>
+                                    <span class="italic block text-sm mb-2">Content</span>
+                                    <p class="text-gray-600 italic mb-4">
+                                        Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des
+                                        clara
+                                    </p>
+                                    <div class="social mt-4 text-secondary text-xl">
+                                        <a class="hover:no-underline hover:text-green-500 duration-300" href=""><i class="bi bi-twitter"></i></a>
+                                        <a class="hover:no-underline hover:text-green-500 duration-300" href=""><i class="bi bi-facebook"></i></a>
+                                        <a class="hover:no-underline hover:text-green-500 duration-300" href=""><i class="bi bi-instagram"></i></a>
+                                        <a class="hover:no-underline hover:text-green-500 duration-300" href=""><i class="bi bi-linkedin"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer  class="bg-gray-100">
+            <div class=" bg-f9faf9">
+                <div class="container mx-auto py-10 max-w-screen-xl px-4 sm:px-16 ">
+                    <div class="flex flex-wrap ">
+                        <div class="lg:w-1/4 md:w-1/2 w-full lg:pr-8 md:pr-6">
+                            <h3 class="text-2xl font-bold">Voila</h3>
+                            <p class="text-base text-secondary mt-4">
+                                A108 Adam Street <br>
+                                New York, NY 535022<br>
+                                United States <br><br>
+                                <strong>Phone:</strong> +1 5589 55488 55<br>
+                                <strong>Email:</strong> info@example.com<br>
+                            </p>
+                        </div>
+
+                        <div class="lg:w-1/6 md:w-1/3 w-full mt-6 lg:mt-0">
+                            <h4 class="text-xl font-bold">Useful Links</h4>
+                            <ul class="mt-4 text-secondary">
+                                <li><i class="bx bx-chevron-right"></i> <a class="hover:no-underline hover:text-green-500" href="#">Home</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a class="hover:no-underline hover:text-green-500" href="#">About us</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a class="hover:no-underline hover:text-green-500" href="#">Services</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a class="hover:no-underline hover:text-green-500" href="#">Terms of service</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a class="hover:no-underline hover:text-green-500" href="#">Privacy policy</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="lg:w-1/4 md:w-1/2 w-full md:pl-8 lg:pl-0 mt-6 lg:mt-0">
+                            <h4 class="text-xl font-bold">Our Services</h4>
+                            <ul class="mt-4 text-secondary">
+                                <li><i class="bx bx-chevron-right"></i> <a class="hover:no-underline hover:text-green-500" href="#">Web Design</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a class="hover:no-underline hover:text-green-500" href="#">Web Development</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a class="hover:no-underline hover:text-green-500" href="#">Product Management</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a class="hover:no-underline hover:text-green-500" href="#">Marketing</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a class="hover:no-underline hover:text-green-500" href="#">Graphic Design</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="lg:w-1/3 md:w-full w-full mt-6 lg:mt-0">
+                            <h4 class="text-xl font-bold">Join Our Newsletter</h4>
+                            <p class="mt-4">Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                            <form action="" method="post" class="mt-4">
+                                <input type="email" name="email" class="border rounded-2xl border-gray-300 p-2">
+                                <input type="submit" value="Subscribe"
+                                    class="bg-green-500 text-white rounded-full px-6 py-2 transition duration-300 hover:bg-green-600">
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mx-auto lg:flex grid lg:justify-between items-center py-4">
+
+                <div class="text-center md:text-left">
+                    <div class="text-sm text-gray-700">
+                        &copy; Copyright <strong><span>Packetprep</span></strong>. All Rights Reserved
+                    </div>
+                    <div class="text-xs text-gray-500 mt-1">
+                        Designed by Ganesh
+                    </div>
+                </div>
+                <div class="text-center md:text-right pt-3 md:pt-0">
+                    <a class="hover:no-underline bg-green-500 rounded-full duration-300 p-2 hover:text-white" href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                    <a class="hover:no-underline bg-green-500 rounded-full duration-300 p-2 hover:text-white" href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                    <a class="hover:no-underline bg-green-500 rounded-full duration-300 p-2 hover:text-white" href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                    <a class="hover:no-underline bg-green-500 rounded-full duration-300 p-2 hover:text-white" href="#" class="google-plus"><i class="bi bi-skype"></i></a>
+                    <a class="hover:no-underline bg-green-500 rounded-full duration-300 p-2 hover:text-white" href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+</html>
